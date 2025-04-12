@@ -33,7 +33,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_My account - Verva
 
 WebUI.click(findTestObject('Object Repository/Page_My account - Vervane/Page_My account - Vervane/button_Se connecter'))
 
-WebUI.click(findTestObject('Object Repository/Page_My account - Vervane/Page_My account - Vervane/button_Se connecter'))
 
 WebUI.click(findTestObject('Object Repository/Page_My account - Vervane/Page_My account - Vervane/a_Logout'))
 

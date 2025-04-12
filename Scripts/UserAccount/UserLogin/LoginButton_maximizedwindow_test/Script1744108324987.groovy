@@ -32,5 +32,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vervane Vervane/in
 
 WebUI.click(findTestObject('Object Repository/Page_Vervane Vervane/button_Log in'))
 
-WebUI.closeBrowser()
+
 
