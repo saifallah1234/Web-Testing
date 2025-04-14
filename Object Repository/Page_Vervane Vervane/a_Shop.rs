@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.shop</value>
+         <value>#menu-item-6576 > a</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='wrapper-container']/div[3]/div/div[3]/a</value>
+         <value>//li[@id='menu-item-6576']/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Shop&quot;i]</value>
+         <value>internal:role=link[name=&quot;Shop&quot;s]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a75cc531-d6d3-42c8-aa42-47bb5528273e</webElementGuid>
+      <webElementGuid>3610e229-000e-48ee-bee0-b5ea064e3e5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://vervane.tn/shop/</value>
-      <webElementGuid>daa5c3c7-36fb-471d-bfa9-4a23f404da0d</webElementGuid>
+      <webElementGuid>0969df02-626c-42e5-a1fa-3c78254674bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,18 +61,82 @@
       <name>text</name>
       <type>Main</type>
       <value>Shop</value>
-      <webElementGuid>88b62f98-896c-41d9-a214-d780d8fd1a8e</webElementGuid>
+      <webElementGuid>0f6c7e0d-b322-42ad-95f9-d4520fa4b262</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wrapper-container&quot;)/div[@class=&quot;footer-device-mobile d-xl-none clearfix&quot;]/div[@class=&quot;list-menu-icon&quot;]/div[@class=&quot;menu-icon&quot;]/a[@class=&quot;shop&quot;]</value>
-      <webElementGuid>d79286d9-11b5-4203-b057-f32a4947ed61</webElementGuid>
+      <value>id(&quot;menu-item-6576&quot;)/a[1]</value>
+      <webElementGuid>4e805a19-4b60-495a-839e-47f362f8efef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='menu-item-6576']/a</value>
+      <webElementGuid>c4b7d6eb-32d1-4112-b600-a33096223881</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Shop')])[3]</value>
+      <webElementGuid>461e9cc6-df57-4063-b3f7-6797e37052c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Term Of Use'])[1]/following::a[1]</value>
+      <webElementGuid>41487a56-c19d-4219-9b5c-6284f2ac5918</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick Links'])[1]/following::a[3]</value>
+      <webElementGuid>545c7625-e669-4d23-9475-b217a09d1584</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Up for Our Newsletter'])[1]/preceding::a[1]</value>
+      <webElementGuid>a03da431-77d0-4e0e-8597-99efc0604db7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://vervane.tn/shop/')])[6]</value>
+      <webElementGuid>512e6636-fb9a-42d1-8317-5bcbe0f44ea9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/ul/li[3]/a</value>
+      <webElementGuid>df5e7ff1-7753-437d-b52b-e2dbba93a132</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://vervane.tn/shop/' and (text() = 'Shop' or . = 'Shop')]</value>
+      <webElementGuid>f9ba70df-ef80-4f19-b7e3-14a048fad4b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

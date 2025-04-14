@@ -3,22 +3,22 @@
    <description></description>
    <name>img_View_image-no-effect</name>
    <tag></tag>
-   <elementGuidId>ef3238cd-7053-44d3-bd98-e787c3d524ef</elementGuidId>
+   <elementGuidId>498bd6c3-ad6e-4b59-9f16-d5538d54677b</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>img.image-no-effect</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='main']/div[4]/div/div/div/div/div/figure/a/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.image-no-effect</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[title=&quot;2 Écrans Solaires Achetés = 1 Gel Nettoyant Offert&quot;i]</value>
+         <value>internal:attr=[title=&quot;Huile Horse Tail&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>2ab1baad-3cab-47f1-b37d-b1ae78113053</webElementGuid>
+      <webElementGuid>8981e77b-0166-4568-aae5-62ecc42195cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>loading</name>
       <type>Main</type>
       <value>lazy</value>
-      <webElementGuid>1c2d5de4-31f3-4303-872d-cf7fb8f4a25e</webElementGuid>
+      <webElementGuid>4f85c97c-0e06-428a-93a9-4dc4ecfcd9b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>width</name>
       <type>Main</type>
       <value>406</value>
-      <webElementGuid>cae21b75-c99c-4016-8178-29083073e40d</webElementGuid>
+      <webElementGuid>31c54e44-7d50-401c-ae1f-0a8d440758cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +53,15 @@
       <name>height</name>
       <type>Main</type>
       <value>406</value>
-      <webElementGuid>41982f3c-bb3c-463f-b9a3-7a3dfb10e3e1</webElementGuid>
+      <webElementGuid>a79a7ef4-573a-405a-8bc8-ea43eb46be11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>https://vervane.tn/wp-content/uploads/2025/03/pack-406x406.webp</value>
-      <webElementGuid>c183771a-5eff-450f-a71c-c69a193173ca</webElementGuid>
+      <value>https://vervane.tn/wp-content/uploads/2024/12/horse-tail-huile-406x406.webp</value>
+      <webElementGuid>18f0d424-201a-4154-a7e7-e66c16068b66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>image-no-effect</value>
-      <webElementGuid>8f67c15e-04be-4264-9dcc-f5c20a0fe411</webElementGuid>
+      <webElementGuid>7a643599-1dd7-4878-a389-1d55cd263c9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,15 +77,15 @@
       <name>decoding</name>
       <type>Main</type>
       <value>async</value>
-      <webElementGuid>d35f4e76-80aa-47ce-a4da-fd2821428b18</webElementGuid>
+      <webElementGuid>9f086175-4db6-4e4c-bc9d-93d2ad5d7bd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;display-products products products-grid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;product type-product post-7115 status-publish first instock product_cat-promo product_cat-soin-visage has-post-thumbnail taxable shipping-taxable purchasable product-type-simple&quot;]/div[@class=&quot;product-block grid product v1&quot;]/div[@class=&quot;product-content&quot;]/div[@class=&quot;block-inner&quot;]/figure[@class=&quot;image&quot;]/a[@class=&quot;product-image&quot;]/img[@class=&quot;image-no-effect&quot;]</value>
-      <webElementGuid>a67547d9-dcbe-476c-ae2d-aca0c2398718</webElementGuid>
+      <value>id(&quot;main&quot;)/div[@class=&quot;display-products products products-grid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;product type-product post-6922 status-publish first instock product_cat-huiles product_cat-soin-cheveux has-post-thumbnail taxable shipping-taxable purchasable product-type-simple&quot;]/div[@class=&quot;product-block grid product v1&quot;]/div[@class=&quot;product-content&quot;]/div[@class=&quot;block-inner&quot;]/figure[@class=&quot;image&quot;]/a[@class=&quot;product-image&quot;]/img[@class=&quot;image-no-effect&quot;]</value>
+      <webElementGuid>84ad334d-f753-415e-9332-d6b074dd39b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,15 +93,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main']/div[4]/div/div/div/div/div/figure/a/img</value>
-      <webElementGuid>0fccadc0-ae68-4ab6-a7e1-9032483786a8</webElementGuid>
+      <webElementGuid>f7467371-93b0-43f2-afe0-a1aa8dd234c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:img</name>
       <type>Main</type>
-      <value>(//img[contains(@src,'https://vervane.tn/wp-content/uploads/2025/03/pack-406x406.webp')])[2]</value>
-      <webElementGuid>a5fcc272-8c30-4112-8e83-df8a86c2868b</webElementGuid>
+      <value>//img[contains(@src,'https://vervane.tn/wp-content/uploads/2024/12/horse-tail-huile-406x406.webp')]</value>
+      <webElementGuid>a5e997ef-8bf2-4b0a-a98c-0f9123002c4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,14 +109,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/figure/a/img</value>
-      <webElementGuid>8d93d7e5-2b3f-4025-be7f-d3ea3cbc340c</webElementGuid>
+      <webElementGuid>54945dd5-b5b4-45a2-823d-677a2a97a8e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@src = 'https://vervane.tn/wp-content/uploads/2025/03/pack-406x406.webp']</value>
-      <webElementGuid>9bc08296-fc7e-492f-b6ca-296d44e0832f</webElementGuid>
+      <value>//img[@src = 'https://vervane.tn/wp-content/uploads/2024/12/horse-tail-huile-406x406.webp']</value>
+      <webElementGuid>ba3ce7f3-35d4-4888-aa09-9c0a27ec857a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

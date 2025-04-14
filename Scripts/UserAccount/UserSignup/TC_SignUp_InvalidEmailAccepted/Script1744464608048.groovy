@@ -21,18 +21,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://vervane.tn/')
 
-WebUI.click(findTestObject('Object Repository/Page_My account - Vervane/Page_Vervane Vervane/i_Wishlist_tb-icon tb-icon-account'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_My account - Vervane/Page_My account - Vervane/label_Identifiant ou e-mailObligatoire'))
+WebUI.click(findTestObject('Object Repository/SignUp/Page_Vervane Vervane/i_Appelez-nous_tb-icon tb-icon-account'))
 
-WebUI.setText(findTestObject('Object Repository/Page_My account - Vervane/Page_My account - Vervane/input_Obligatoire_username'), 
-    'saifallahbellhaj2017@gmail.com')
+WebUI.click(findTestObject('Object Repository/SignUp/Page_Vervane Vervane/a_Create an account'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_My account - Vervane/Page_My account - Vervane/input_Obligatoire_password'), 
-    'AC8o8eqKi3wLGj2eB8503g==')
+WebUI.setText(findTestObject('Object Repository/SignUp/Page_My account - Vervane/input_Obligatoire_email'), 'webtestinggvervanebysaifallahhhhh@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Page_My account - Vervane/Page_My account - Vervane/button_Se connecter'))
+WebUI.click(findTestObject('Object Repository/SignUp/Page_My account - Vervane/button_Sinscrire'))
 
-
-WebUI.click(findTestObject('Object Repository/Page_My account - Vervane/Page_My account - Vervane/a_Logout'))
+WebUI.verifyElementText(findTestObject('Object Repository/SignUp/Page_My account - Vervane/div_Votre compte pour Vervane utilise un mo_bf8abf'), 
+    'Votre compte pour Vervane utilise un mot de passe temporaire. Nous vous avons envoyé un lien par e-mail pour modifier votre mot de passe.')
 

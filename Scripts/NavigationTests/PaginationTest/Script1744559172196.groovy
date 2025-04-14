@@ -17,20 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
 WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://vervane.tn/')
-
 WebUI.maximizeWindow()
+def bullets = [
+	findTestObject('Object Repository/Page_Vervane Vervane/sr7-bullet_Acheter_sr7-bullet sr7-touchhover_1'),
+	findTestObject('Object Repository/Page_Vervane Vervane/sr7-bullet_Acheter_sr7-bullet sr7-touchhover_1_2'),
+	findTestObject('Object Repository/Page_Vervane Vervane/sr7-bullet_Acheter_sr7-bullet sr7-touchhover')
+]
 
-WebUI.click(findTestObject('Object Repository/SignUp/Page_Vervane Vervane/i_Appelez-nous_tb-icon tb-icon-account'))
+for (def bullet : bullets) {
+	String urlBeforeClick = WebUI.getUrl()
+	WebUI.waitForElementVisible(bullet, 10)
+	WebUI.waitForElementClickable(bullet, 10)
+	WebUI.click(bullet)
+	WebUI.delay(2) 
+	String urlAfterClick = WebUI.getUrl()
+	
+	if (urlBeforeClick == urlAfterClick) {
+	} else {
+		WebUI.verifyMatch(urlBeforeClick, urlAfterClick, true)  
+	}
+}
 
-WebUI.click(findTestObject('Object Repository/SignUp/Page_Vervane Vervane/a_Create an account'))
+WebUI.closeBrowser()
 
-WebUI.setText(findTestObject('Object Repository/SignUp/Page_My account - Vervane/input_Obligatoire_email'), 'webtestinggvervanebysaifallah@gmail.com')
-
-WebUI.click(findTestObject('Object Repository/SignUp/Page_My account - Vervane/button_Sinscrire'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/SignUp/Page_My account - Vervane/div_Votre compte pour Vervane utilise un mo_bf8abf'), 
-    'Votre compte pour Vervane utilise un mot de passe temporaire. Nous vous avons envoyé un lien par e-mail pour modifier votre mot de passe.')
 
